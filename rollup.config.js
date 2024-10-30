@@ -5,21 +5,21 @@ import { terser } from 'rollup-plugin-terser';
 import babel from '@rollup/plugin-babel';
 
 export default {
-  input: 'src/VueCountdown.vue',
+  input: 'src/VueChronometer.vue',
   output: [
     {
       format: 'esm',
-      file: 'dist/vue-countdown.esm.js',
+      file: 'dist/vue-chronometer.esm.js',
     },
     {
       format: 'cjs',
-      file: 'dist/vue-countdown.cjs.js',
+      file: 'dist/vue-chronometer.cjs.js',
       exports: 'auto',
     },
     {
-      name: 'VueCountdown',
+      name: 'VueChronometer',
       format: 'umd',
-      file: 'dist/vue-countdown.umd.js',
+      file: 'dist/vue-chronometer.umd.js',
       globals: {
         vue: 'Vue',
       },

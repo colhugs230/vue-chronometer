@@ -1,10 +1,10 @@
 {
-  "name": "vue-countdown",
+  "name": "vue-chronometer",
   "version": "1.0.0",
   "description": "A Vue.js component that takes an integer of seconds and counts down by one every second",
-  "main": "dist/vue-countdown.cjs.js",
-  "module": "dist/vue-countdown.esm.js",
-  "unpkg": "dist/vue-countdown.umd.js",
+  "main": "dist/vue-chronometer.cjs.js",
+  "module": "dist/vue-chronometer.esm.js",
+  "unpkg": "dist/vue-chronometer.umd.js",
   "files": [
     "dist",
     "src"
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colhugs230/vue-countdown.git"
+    "url": "git+https://github.com/colhugs230/vue-chronometer.git"
   },
   "keywords": [
     "vue",
     "component",
-    "countdown"
+    "chronometer"
   ],
   "author": "Colin Hughes <colhugs230@gmail.com>",
   "license": "MIT",

@@ -1,16 +1,16 @@
-import VueCountdown from './VueCountdown.vue';
+import VueChronometer from './VueChronometer.vue';
 
 export default {
-  title: 'VueCountdown',
-  component: VueCountdown,
+  title: 'VueChronometer',
+  component: VueChronometer,
 };
 
 const Template = (args) => ({
-  components: { VueCountdown },
+  components: { VueChronometer },
   setup() {
     return { args };
   },
-  template: '<VueCountdown v-bind="args" />',
+  template: '<VueChronometer v-bind="args" />',
 });
 
 export const Default = Template.bind({});
