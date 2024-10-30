@@ -1,2 +1,8 @@
 # vue-countdown
-A vue component that takes an integer of seconds and counts down
+
+A Vue.js component that takes an integer of seconds and counts down by one every second
+
+## Installation
+
+```bash
+npm install vue-countdown
